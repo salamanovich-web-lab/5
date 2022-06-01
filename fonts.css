@@ -1,0 +1,73 @@
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 20px;
+line-height: 1.8;
+background-color:#3c5698;
+}
+.header {
+height: 400px;
+background-color:#fff317;
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 20px black;
+}
+
+@font-face {
+font-family: "kurland";
+src: url("../fonts/kurland/Kurland.ttf");
+}
+@font-face {
+font-family: "Bootshaus";
+src: url("../fonts/bootshaus/Bootshaus-Regular.ttf");
+}
+h1 {
+font-family: kurland, sans-serif;
+text-align: center;
+font-size: 50px;
+text-shadow: 1px 1px 2px rgb(43, 146, 182);
+background-color: #ffffff;
+padding: 0px;
+}
+h3 {
+margin: 5px;
+font-family: Bootshaus, sans-serif;
+font-size: 30px;
+margin-left: 500px;
+}
+/* Шрифти Гугл */
+p{
+font-family: 'Caveat', cursive;
+font-size: 20px;
+padding: 0px;
+margin-left: 40px;
+margin-right: 40px;
+}
+@import
+url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cav eat:wght@400;500;600;700&display=swap');
+ol {
+font-family: 'Amatic SC', cursive;
+font-size: 17px;
+}
+
+.icon-block {
+text-align: right;
+}
+.icon-block i {
+font-size: 10px;
+color: #c41111;
+background: rgb(250, 0, 0);
+padding: 10px;
+border-radius: 100%;
+margin: 15px;
+box-shadow: 0 0 12px rgb(64, 183, 183);
+transition: all 0.3 ease;
+}
+.icon-block i:hover {
+color:#000000;
+background:rgb(175, 175, 175);
+box-shadow:  0 0 12px rgb(180, 171, 162);
+transform: scale(1.1);
+}
